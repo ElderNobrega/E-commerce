@@ -10,3 +10,6 @@ It allows us to compile scss to css. It has a lot of qualities and life improvem
 
 ### Firebase:
 Using firebase cloud firestore as a database for the project. 
+
+### Redux: 
+As the app is growing I find that redux will help me to have more control of the states
