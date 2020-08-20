@@ -12,4 +12,5 @@ It allows us to compile scss to css. It has a lot of qualities and life improvem
 Using firebase cloud firestore as a database for the project. 
 
 ### Redux: 
-As the app is growing I find that redux will help me to have more control of the states
+As the app is growing I find that redux will help me to have more control of the states that I will be needing.
+Also, it will increase my knowledge with Redux
