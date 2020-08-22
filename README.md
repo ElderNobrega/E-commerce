@@ -14,3 +14,6 @@ Using firebase cloud firestore as a database for the project.
 ### Redux: 
 As the app is growing I find that redux will help me to have more control of the states that I will be needing.
 Also, it will increase my knowledge with Redux
+
+### Reselect: 
+As we have a state being rerendered in every state updates, even thought it is the same state, this is not what we want. This is where reselect comes in. 
