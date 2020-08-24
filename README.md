@@ -17,3 +17,6 @@ Also, it will increase my knowledge with Redux
 
 ### Reselect: 
 As we have a state being rerendered in every state updates, even thought it is the same state, this is not what we want. This is where reselect comes in. 
+
+### Redux Persist: 
+Installed Redux persist to keep state saved when refresh the page!!
