@@ -16,7 +16,10 @@ As the app is growing I find that redux will help me to have more control of the
 Also, it will increase my knowledge with Redux
 
 ### Reselect: 
-As we have a state being rerendered in every state updates, even thought it is the same state, this is not what we want. This is where reselect comes in. 
+As we have a state being rerendered in every state updates, even though it is the same state, this is not what we want. This is where reselect comes in. 
 
 ### Redux Persist: 
 Installed Redux persist to keep state saved when refresh the page!!
+
+### Styles Components:
+Create a new branch to test style components. It is a feature to have a css in JS as a component. It`s nice to have more css control in each component instead of in the entire app. It is a very nice scalability, whoever it comes with a tradeoff of learning another technology. 
