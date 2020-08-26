@@ -10,7 +10,7 @@ import CartDropdown from '../cart-dropdown/cart-dropdown.component'
 import { selectCartHidden } from '../../redux/cart/cart.selectors'
 import { selectCurrentUser } from '../../redux/user/user.selector'
 
-import { HeaderContainer, LogoContainer, OptionsContainer, OptionDiv, OptionLink } from './header.styles'
+import { HeaderContainer, LogoContainer, OptionsContainer, OptionLink } from './header.styles'
 
 const Header = ({ currentUser, hidden }) => (
   <HeaderContainer>
@@ -22,7 +22,7 @@ const Header = ({ currentUser, hidden }) => (
       <OptionLink to='/shop'>CONTACT</OptionLink>
       {
         currentUser ? 
-        (<OptionDiv onClick={() => auth.signOut()}>SING OUT</OptionDiv>)
+        (<OptionLink as="div" onClick={() => auth.signOut()}>SING OUT</OptionLink>)
         :
         (<OptionLink to='/signin'>SIGN IN</OptionLink>)
       }
