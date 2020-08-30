@@ -20,3 +20,6 @@ As we have a state being rerendered in every state updates, even though it is th
 
 ### Redux Persist: 
 Installed Redux persist to keep state saved when refresh the page!!
+
+### Redux Saga: 
+A library to handle asynchronous things like fetching data and browser cache easier to manage, efficient to execute and better at handling failures. 
